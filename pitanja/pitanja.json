@@ -1,0 +1,323 @@
+[
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Koje godine je izasao film Deadpool?",
+    "odgovor": "2016.",
+    "opcija4": "2014.",
+    "opcija2": "2015.",
+    "opcija3": "2017."
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Kako se zove glavni glumac filma Johnny English?",
+    "opcija4": "Johnny Depp",
+    "opcija2": "Robert De Niro",
+    "odgovor": "Rowan Atkinson",
+    "opcija3": "Ben Stiller"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "U kom gradu se nalazi muzej u kome se odigrava radnja filma Night at the Museum?",
+    "opcija4": "Hjuston",
+    "opcija2": "Los Angeles",
+    "opcija3": "Majami",
+    "odgovor": "New York"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Kako se zove lik koga glumi Johnny Depp u filmu Pirati sa Kariba?",
+    "opcija4": "Richard Hendrix",
+    "odgovor": "Jack Sparrow",
+    "opcija3": "Javier Pena",
+    "opcija2": "Billy Russo"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Koje godine je izasao film The Godfather?",
+    "opcija4": "1978.",
+    "odgovor": "1972.",
+    "opcija3": "1975.",
+    "opcija2": "1968."
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Koliko Oskara ima Robert De Niro?",
+    "odgovor": "2",
+    "opcija4": "4",
+    "opcija3": "6",
+    "opcija2": "7"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Kako glasi naziv poslednjeg dela filma Indiana Jones?",
+    "odgovor": "Indiana Jones and the Kingdom of the Crystal Skull",
+    "opcija4": "Raiders of the Lost Ark",
+    "opcija3": "Indiana Jones and the Temple of Doom",
+    "opcija2": "Indiana Jones and the Last Crusade"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Kako se zove glavni lik filma Star Wars: The Force Awakens",
+    "opcija3": "Kylo Ren",
+    "opcija4": "Dzej",
+    "odgovor": "Rej",
+    "opcija2": "Finn"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Za koji klub brani Kengur u filmu Kad porastem bicu Kengur?",
+    "opcija3": "Manchester United",
+    "opcija4": "Newcastle United",
+    "opcija2": "Ipswich",
+    "odgovor": "Eastwich"
+  },
+  {
+    "kategorija": "filmovi",
+    "pitanje": "Ko je rezirao film Avatar?",
+    "opcija3": "Steven Spielberg",
+    "opcija4": "Scott Rudin",
+    "opcija2": "Matthew Broderick",
+    "odgovor": "James Cameron"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Koji bend izvodi pesmu Highway to Hell?",
+    "opcija3": "Guns n' Roses",
+    "opcija4": "Slash's Snakepit",
+    "opcija2": "Iron Maiden",
+    "odgovor": "AC/DC"
+
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Kako se zove lead gitarista grupe Guns n' Roses?",
+    "opcija3": "Angus Young",
+    "opcija4": "Dave Grohl",
+    "opcija2": "Adrian Smith",
+    "odgovor": "Saul Hudson"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Ko je napisao pesmu Layla?",
+    "opcija3": "Jimi Hendrix",
+    "opcija4": "Janis Joplin",
+    "opcija2": "Bob Dylan",
+    "odgovor": "Eric Clapton"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Koju gitaru koristi Jimi Hendrix?",
+    "opcija3": "Fender Telecaster",
+    "opcija4": "Gibson Les Paul",
+    "opcija2": "Gibson SG",
+    "odgovor": "Fender Stratocaster"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Koje godine je izasao album Appetite for Destruction benda Guns n' Roses?",
+    "opcija3": "1997.",
+    "opcija4": "1986.",
+    "opcija2": "1995.",
+    "odgovor": "1987."
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Koji clan benda Def Leppar je preminuo 1991. godine?",
+    "opcija3": "Phil Collen",
+    "opcija4": "Rick Allen",
+    "opcija2": "Joe Elliott",
+    "odgovor": "Steve Clark"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Kako se zove pevac benda The Rolling Stones?",
+    "opcija3": "Robert Plant",
+    "opcija4": "Axl Rose",
+    "opcija2": "Brian Johnson",
+    "odgovor": "Mick Jagger"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Koliko clanova je brojao bend Queen u pocetku?",
+    "opcija3": "7",
+    "opcija4": "8",
+    "opcija2": "5",
+    "odgovor": "4"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Kako se zove drugi album benda The Rolling Stones?",
+    "opcija3": "Sticky Fingers",
+    "opcija4": "Aftermath",
+    "opcija2": "Emotional Rescue",
+    "odgovor": "The Rolling Stones No.2"
+  },
+  {
+    "kategorija": "muzika",
+    "pitanje": "Pesma November Rain pripada albumu:",
+    "opcija3": "Appetite for Destruction",
+    "opcija4": "Use Your Illusion 2",
+    "opcija2": "G N' R Lies",
+    "odgovor": "Use Your Illusion 1."
+  },
+    {
+    "kategorija": "igrice",
+    "pitanje": "Koja kompanija pravi igricu Grand Theft Auto?",
+    "opcija3": "EA",
+    "opcija4": "2K Games",
+    "opcija2": "Square Enix",
+    "odgovor": "Rockstar games"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Kako se zove prva igrica napravljena za racunar?",
+    "opcija3": "Pacman",
+    "opcija4": "Gun Fight",
+    "opcija2": "Sea Wolf",
+    "odgovor": "Spacewar!"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Koje godine je izasla igra GTA V?",
+    "opcija3": "2015.",
+    "opcija4": "2012.",
+    "opcija2": "2014.",
+    "odgovor": "2013."
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Koji je poslednji nastavak igrice Battlefield?",
+    "opcija3": "Battlefield 4",
+    "opcija4": "Battlefield Hardline",
+    "opcija2": "Battlefield 3",
+    "odgovor": "Battlefield 1"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Ko je najpoznatiji karakter video igrica?",
+    "opcija3": "Link",
+    "opcija4": "Sonic",
+    "opcija2": "Donkey Kong",
+    "odgovor": "Mario"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Koja je prva kucna konzola?",
+    "opcija3": "Atari 2600",
+    "opcija4": "Atari 1320",
+    "opcija2": "Sega Genisis",
+    "odgovor": "Oddessy"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "U kojoj igrici se pojavljuju zlatni prstenovi koji znace Life-Energy ili novac?",
+    "opcija3": "Super Mario Bros",
+    "opcija4": "Half-Life",
+    "opcija2": "Soul Reaver",
+    "odgovor": "Sonic the Hedgehog"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Koliko je bilo dugmadi na originalnom NES kontroleru?",
+    "opcija3": "5",
+    "opcija4": "10",
+    "opcija2": "15",
+    "odgovor": "8"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "NES je skraceno od?",
+    "opcija3": "Never Ending Simulation",
+    "opcija4": "New Enterprise System",
+    "opcija2": "Never Ending Simulation",
+    "odgovor": "Nintendo Entertainment System"
+  },
+  {
+    "kategorija": "igrice",
+    "pitanje": "Koji je poslednji deo igre Far Cry?",
+    "opcija3": "3",
+    "opcija4": "6",
+    "opcija2": "4",
+    "odgovor": "5"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Koje godine je Crvena zvezda uzela KES?",
+    "opcija3": "1989.",
+    "opcija4": "1990.",
+    "opcija2": "1988.",
+    "odgovor": "1991."
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Koje godine je osnovan klub FC Barcelona?",
+    "opcija3": "1887.",
+    "opcija4": "1890.",
+    "opcija2": "1888.",
+    "odgovor": "1899."
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Za koji engleski klub je igrao Nemanja Vidic?",
+    "opcija3": "Newcastle",
+    "opcija4": "Chelsea",
+    "opcija2": "Aston Villa",
+    "odgovor": "Manchester United"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Koliko je aktivnih igraca na terenu na kosarkaskoj utakmici?",
+    "opcija3": "8",
+    "opcija4": "5",
+    "opcija2": "12",
+    "odgovor": "10"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Sa koje udaljenosti se izvodi kazneni udarac u fudbalu(penal)?",
+    "opcija3": "10m",
+    "opcija4": "7m",
+    "opcija2": "12m",
+    "odgovor": "11m"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Ko je osvojio NBA prsten u sezoni 2015/2016?",
+    "opcija3": "Golden State",
+    "opcija4": "Houston",
+    "opcija2": "Atlanta",
+    "odgovor": "Cleveland"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Ko je osvojio ligu sampiona u sezoni 2016/2017?",
+    "opcija3": "Juventus",
+    "opcija4": "Barcelona",
+    "opcija2": "Bayern",
+    "odgovor": "Real Madrid"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Koji je najpopularniji sport u Indiji?",
+    "opcija3": "Polo",
+    "opcija4": "Fudbal",
+    "opcija2": "Ragbi",
+    "odgovor": "Kriket"
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Koje godine je Novak Djokovic osvojio prvi put Wimbledon?",
+    "opcija3": "2012.",
+    "opcija4": "2013.",
+    "opcija2": "2010.",
+    "odgovor": "2011."
+  },
+  {
+    "kategorija": "sport",
+    "pitanje": "Ko je postigao pobedonosni pogodak za Nemacku protiv Argentine 1990. u finalu svetskog prvenstva?",
+    "opcija3": "Klaus Augenthaler",
+    "opcija4": "Frank Mill",
+    "opcija2": "Rudi Völler",
+    "odgovor": "Andreas Brehme"
+  }
+]

@@ -1,0 +1,219 @@
+<Label>:
+    font_name: 'Kavivanar-Regular.ttf'
+    color: 0,0,0,1
+    font_size: '18sp'
+
+<Widget>:
+    canvas.before:
+        Color:
+
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: './slike/pozadinaMain.png'
+
+<Button>:
+    background_normal: './slike/normal.png'
+    background_down: './slike/pritisnuto.png'
+
+
+<Meni>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            size_hint_y: 0.5
+            font_size: '28sp'
+            canvas.before:
+                Color:
+                    rgba: 1,1,1,1
+                Rectangle:
+                    source: './slike/logo.png'
+                    size: self.size[0]/2.5, self.size[1]
+                    pos: self.center_x/2, self.pos[1]
+
+        BoxLayout:
+            size_hint: 0.6, 1
+            pos_hint: {'center_x': 0.5}
+            padding: 25
+            spacing: 25
+            orientation: 'vertical'
+            Button:
+                text: 'Start'
+                on_release:
+                    root.click_sound()
+                    root.background.volume = 0.5
+                    root.manager.current = 'start'
+            Button:
+                text: 'About'
+                on_release:
+                    root.click_sound()
+                    root.background.volume = 0.5
+                    root.manager.current = 'about'
+            Button:
+                text: 'Quit'
+                on_release:
+                    exit()
+
+<StartScreen>:
+    BoxLayout:
+        padding: 25
+        spacing: 25
+        orientation: 'vertical'
+        Label:
+            size_hint: 0.5, 0.15
+            pos_hint: {'center_x': 0.45}
+            text: 'Start - Select a category'
+        BoxLayout:
+            orientation: 'vertical'
+            spacing: 25
+            Button:
+                size_hint: 0.7, 1
+                pos_hint: {'center_x': 0.5}
+                text: 'Muzika'
+                on_release:
+                    root.click_sound()
+                    root.manager.current = 'game'
+                    app.root.get_screen('game').vrsta = 2
+            Button:
+                size_hint: 0.7, 1
+                pos_hint: {'center_x': 0.5}
+                text: 'Filmovi'
+                on_release:
+                    root.click_sound()
+                    root.manager.current = 'game'
+                    app.root.get_screen('game').vrsta = 1
+            Button:
+                size_hint: 0.7, 1
+                pos_hint: {'center_x': 0.5}
+                text: 'Igrice'
+                on_release:
+                    root.click_sound()
+                    root.manager.current = 'game'
+                    app.root.get_screen('game').vrsta = 3
+            Button:
+                size_hint: 0.7, 1
+                pos_hint: {'center_x': 0.5}
+                text: 'Sport'
+                on_release:
+                    root.click_sound()
+                    root.manager.current = 'game'
+                    app.root.get_screen('game').vrsta = 4
+        Button:
+            size_hint: 0.5, 0.1
+            pos_hint: {'center_x': 0.45}
+            text: 'back'
+            on_release:
+                root.click_sound()
+                root.manager.current = 'menu'
+
+<GameActionScreen>:
+    on_enter: self.new_game()
+    BoxLayout:
+        orientation: 'vertical'
+        BoxLayout:
+            size_hint: 1, 0.15
+            Label:
+                id: label_1
+                text: 'Greske: 0'
+            Label:
+                id: label_2
+                text: 'Rez '
+        Label:
+            id: task
+            text: ''
+            text_size: self.width/1.1, None
+            font_size: 18
+        GridLayout:
+            cols: 2
+            padding: 25
+            Button:
+                id: button_1
+                text: ''
+                on_release: root.check_answer(self)
+            Button:
+                id: button_2
+                text: ''
+                on_release: root.check_answer(self)
+            Button:
+                id: button_3
+                text: ''
+                on_release: root.check_answer(self)
+            Button:
+                id: button_4
+                text: ''
+                on_release: root.check_answer(self)
+
+
+<AboutScreen>:
+    BoxLayout:
+        spacing: 25
+        padding: 25
+        orientation: 'vertical'
+        Label:
+            size_hint: 0.5, 0.15
+            pos_hint: {'center_x': 0.45}
+            text: 'About'
+        Label:
+            text: root.about_text()
+        Button:
+            size_hint: 0.5, 0.1
+            pos_hint: {'center_x': 0.45}
+            text: 'back'
+            on_release:
+                root.click_sound()
+                root.manager.current = 'menu'
+
+<ResultScreen>:
+    on_enter: root.calculate_result(app.sm.get_screen('game'))
+    BoxLayout:
+        spacing: 25
+        padding: 25
+        orientation: 'vertical'
+        Label:
+            size_hint: 0.5, 0.15
+            pos_hint: {'center_x': 0.45}
+            text: 'Result'
+        BoxLayout:
+            size_hint: 0.2, 0.2
+            pos_hint: {'center_x': 0.45}
+            Image:
+                id: star_1
+                source: './slike/sivaZvezda.png'
+            Image:
+                id: star_2
+                source: './slike/sivaZvezda.png'
+            Image:
+                id: star_3
+                source: './slike/sivaZvezda.png'
+            Image:
+                id: star_4
+                source: './slike/sivaZvezda.png'
+            Image:
+                id: star_5
+                source: './slike/sivaZvezda.png'
+        Label:
+            id: label
+            text: ' '
+        Button:
+            size_hint: 0.5, 0.1
+            pos_hint: {'center_x': 0.45}
+            text: 'back'
+            on_release:
+                root.click_sound()
+                root.manager.current = 'menu'
+
+<PopUpQuit>:
+    size_hint: .5, .2
+    auto_dismiss: False
+    title: 'Napusti igru?'
+    title_color: 0,0,0,1
+    BoxLayout:
+        padding: 10
+        Button:
+            text: 'Nema sanse'
+            on_release: root.dismiss()
+        Button:
+            text: 'Jasta'
+            on_release:
+                app.sm.current = 'menu'
+                root.dismiss()
